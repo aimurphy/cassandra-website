@@ -3,17 +3,11 @@
 :page-role: tiles
 :!sectids:
 
-
 Our ecosystem includes a range of third-party Cassandra projects, tools, products, and services that may be useful to end users. These are not supported by the community. If you have one to add, please do so by https://github.com/apache/cassandra-website/blob/trunk/README.md[submitting a pull request,window=blank].
 
-// start accordion
-[openblock,cassandra-cloud]
-------
-[discrete]
-=== Cassandra Cloud Offerings
-
-[openblock,accordion-content ml-medium hidden]
---------
+.Cassandra Cloud Offerings
+[%collapsible]
+====
 https://aiven.io/cassandra[Aiven for Apache Cassandra,window=_blank]: Aiven for Apache Cassandra is a fully managed NoSQL database, deployable in the cloud of your choice. Snap it into your existing workflows with the click of a button, automate away the mundane tasks, and focus on building your core apps. Now running Cassandra 4.0.
 
 https://aws.amazon.com/keyspaces/[Amazon Keyspaces (for Apache Cassandra),window=_blank]: Scalable, highly available, and managed Apache Cassandra–compatible database service.
@@ -27,38 +21,21 @@ https://astra.datastax.com/[DataStax Astra,window=_blank]: Cloud-native, serverl
 https://github.com/strapdata/elassandra[Elassandra,window=_blank]: Elassandra is an Apache Cassandra distribution including an Elasticsearch search engine. Elassandra is a multi-master multi-cloud database and search engine with support for replicating across multiple datacenters in active/active mode.
 
 https://www.instaclustr.com/solutions/managed-apache-cassandra[Instaclustr Hosted & Managed Apache Cassandra as a Service,window=_blank]: Instaclustr provides a fully managed and SOC 2 certified hosted & managed service for Apache Cassandra® on AWS, Azure, GCP and IBM Cloud.
+====
 
---------
-------
-// end accordion
-
-// start accordion
-[openblock,cassandra-cloud]
-------
-[discrete]
-=== Cassandra Installation Tools
-
-[openblock,accordion-content ml-medium hidden]
---------
-
+.Cassandra Installation Tools
+[%collapsible]
+====
 https://hub.docker.com/_/cassandra[Docker community Cassandra images,window=blank]: Docker images for Apache Cassandra maintained by the Docker community
 
 https://downloads.datastax.com/#desktop[DataStax Desktop,window=blank]: Cross-platform (Windows, MacOSX, Linux) application that allows developers to quickly explore Apache Cassandra™ with a few clicks on their laptop, complete with tutorials and walkthroughs.
 
 https://github.com/thelastpickle/tlp-cluster[The Last Pickle tlp-cluster,window=blank]: tlp-cluster, a tool for launching Cassandra clusters in AWS (DataStax)
---------
-------
-// end accordion
+====
 
-// start accordion
-[openblock,cassandra-cloud]
-------
-[discrete]
-=== Cassandra Tools
-
-[openblock,accordion-content ml-medium hidden]
---------
-
+.Cassandra Tools
+[%collapsible]
+====
 https://github.com/datastax/adelphi[Adelphi,window=blank]: Automation tool for testing open-source Cassandra using cassandra-diff, nosqlbench, and fqltool.
 
 https://www.lagomframework.com/documentation/1.6.x/scala/PersistentEntityCassandra.html[Akka-Persistence-Cassandra,window=blank] : https://github.com/lagom/lagom[Lagom,window=_blank] focuses on ensuring that your application realizes the full potential of the Reactive Manifesto while delivering a high productivity development environment, and seamless production deployment experience.
@@ -178,20 +155,11 @@ https://github.com/intuit/wasabi[Wasabi,window=blank]: Wasabi A/B Testing Servic
 https://github.com/wikimedia/restbase[Wikimedia RestBase,window=blank]: RESTBase was built to provide a low-latency & high-throughput API for Wikipedia / Wikimedia content.
 
 https://github.com/apache/zeppelin[Zeppelin,window=blank]: Zeppelin is a web-based notebook that enables interactive data analytics.
+====
 
---------
-------
-// end accordion
-
-// start accordion
-[openblock,cassandra-cloud]
-------
-[discrete]
-=== Cassandra Kubernetes Operators
-
-[openblock,accordion-content ml-medium hidden]
---------
-
+.Cassandra Kubernetes Operators
+[%collapsible]
+====
 https://github.com/mesosphere/kudo-cassandra-operator[D2iQ Cassandra Kudo Operator,window=blank]: The KUDO Cassandra Operator makes it easy to deploy and manage Apache Cassandra on Kubernetes.
 
 https://github.com/datastax/cass-operator[DataStax cass-operator,window=blank]: The DataStax Kubernetes Operator for Apache Cassandra
@@ -205,20 +173,11 @@ https://orange-opensource.github.io/casskop/[Orange CassKop,window=blank]: The O
 https://github.com/rook/rook[Rook,window=blank]: Rook is an open source cloud-native storage orchestrator for Kubernetes, providing the platform, framework, and support for a diverse set of storage solutions to natively integrate with cloud-native environments.
 
 https://github.com/sky-uk/cassandra-operator[Sky Cassandra Operator,window=blank]: The Sky Cassandra Operator is a Kubernetes operator that manages Cassandra clusters inside Kubernetes.
+====
 
---------
-------
-// end accordion
-
-// start accordion
-[openblock,cassandra-cloud]
-------
-[discrete]
-=== Cassandra Management Sidecars
-
-[openblock,accordion-content ml-medium hidden]
---------
-
+.Cassandra Management Sidecars
+[%collapsible]
+====
 https://github.com/apache/cassandra-sidecar[Apache Cassandra cassandra-sidecar,window=blank]: Sidecar for the highly scalable Apache Cassandra database, built as part of the Apache Cassandra project.
 
 https://github.com/datastax/management-api-for-apache-cassandra[DataStax Management API for Apache Cassandra,window=blank]: RESTful / Secure Management Sidecar for Apache Cassandra
@@ -226,22 +185,11 @@ https://github.com/datastax/management-api-for-apache-cassandra[DataStax Managem
 https://github.com/datastax/spring-boot[DataStax Spring Boot,window=blank]: Spring Boot extension
 
 https://github.com/instaclustr/icarus[Instaclustr Icarus,window=blank]: Icarus is meant to be run alongside of Cassandra, talking to Cassandra via JMX. Instaclustr Esop is embedded in Icarus for on-the-fly cluster backup and restore using various cloud storage providers as a source or destination. Icarus is used primarily as a backup and restore tool, and is containerized in https://github.com/instaclustr/cassandra-operator[Instaclustr cassandra-operator,window=blank] and https://orange-opensource.github.io/casskop/[Orange CassKop,window=blank].
+====
 
-
-
---------
-------
-// end accordion
-
-// start accordion
-[openblock,cassandra-cloud]
-------
-[discrete]
-=== Developer Frameworks
-
-[openblock,accordion-content ml-medium hidden]
---------
-
+.Developer Frameworks
+[%collapsible]
+====
 https://camel.apache.org/components/latest/cql-component.html[Apache Camel,window=blank]: Camel is an Open Source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data.
 
 http://r4fek.github.io/django-cassandra-engine/[Django Cassandra Engine,window=blank]: Cassandra backend for Django Framework that allows you to use Cqlengine directly in your project.
@@ -259,33 +207,23 @@ https://spring.io/projects/spring-data-cassandra[Spring Data Cassandra,window=bl
 https://github.com/tschellenbach/Stream-Framework[Stream Framework,window=blank]: Stream Framework is a Python library which allows you to build activity streams & newsfeeds using Cassandra and/or Redis.
 
 https://www.testcontainers.org/modules/databases/cassandra/[TestContainers,window=blank]: Testcontainers is a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
+====
 
-
---------
-------
-// end accordion
-
-// start accordion
-[openblock,cassandra-cloud]
-------
+.Cassandra Connectors
+[%collapsible]
+====
 [discrete]
-=== Cassandra Connectors
-
-[openblock,accordion-content ml-medium hidden]
---------
-
-[discrete]
-==== Apache Drill
+== Apache Drill
 
 https://drill.apache.org/docs/cassandra-storage-plugin/[Cassandra Storage Plugin,window=blank]: Drill’s Cassandra storage plugin allows you to execute SQL queries against Cassandra tables.
 
 [discrete]
-==== Apache Flink
+== Apache Flink
 
 https://ci.apache.org/projects/flink/flink-docs-stable/dev/connectors/cassandra.html[Flink Sink Connector,window=blank]: This connector provides sinks that writes data into a Apache Cassandra database.
 
 [discrete]
-==== Apache Kafka
+== Apache Kafka
 
 https://www.confluent.io/hub/confluentinc/kafka-connect-cassandra[Confluent Connect Cassandra,window=blank]: The Confluent Cassandra Sink Connector is used to move messages from Kafka into Apache Cassandra.
 
@@ -298,33 +236,24 @@ https://docs.lenses.io/connectors/source/cassandra.html[Lenses Source Connector,
 https://github.com/lensesio/stream-reactor[Stream-Reactor,window=blank]: Lenses offers SQL (for data browsing and Kafka Streams), Kafka Connect connector management, cluster monitoring, and more.
 
 [discrete]
-==== Apache Pulsar
+== Apache Pulsar
 
 https://pulsar.apache.org/docs/en/io-quickstart/#connect-pulsar-to-cassandra[Pulsar Sink Connector Cassandra Connector,window=blank]: The Pulsar Cassandra Sink connector is used to write messages to a Cassandra Cluster.
 
 [discrete]
-==== Apache Spark
+== Apache Spark
 
 https://github.com/datastax/spark-cassandra-connector[DataStax Spark Cassandra Connector,window=blank]: This library lets you expose Cassandra tables as Spark RDDs and Datasets/DataFrames, write Spark RDDs and Datasets/DataFrames to Cassandra tables, and execute arbitrary CQL queries in your Spark applications.
 
 [discrete]
-==== Presto
+== Presto
 
 https://prestodb.io/docs/current/connector/cassandra.html[Presto,window=blank]: The Cassandra connector allows querying data stored in Cassandra.
+====
 
---------
-------
-// end accordion
-
-// start accordion
-[openblock,cassandra-cloud]
-------
-[discrete]
-=== Professional Support
-
-[openblock,accordion-content ml-medium hidden]
---------
-
+.Professional Support
+[%collapsible]
+====
 https://anant.us/cassandra/[Anant,window=blank]
 
 https://axonops.com/apache-cassandra-support/[AxonOps,window=blank]
@@ -342,33 +271,14 @@ https://www.instaclustr.com/services/[Instaclustr,window=blank]
 https://opencredo.com/about-us/[Open Credo,window=blank]
 
 https://rustyrazorblade.com/[RustyRazorBlade Consulting,window=blank]
+====
 
-
-
---------
-------
-// end accordion
-
-// start accordion
-[openblock,cassandra-cloud]
-------
-[discrete]
-=== Education
-
-[openblock,accordion-content ml-medium hidden]
---------
-
+.Education
+[%collapsible]
+====
 https://academy.datastax.com/[DataStax Academy,window=blank]
 
 https://www.datastax.com/cassandra-workshop-series[DataStax Workshops,window=blank]
 
 https://www.instaclustr.com/instaclustr-labs/training/[Instaclustr Training,window=blank]
-
---------
-------
-// end accordion
-
-
-
-
-
+====
